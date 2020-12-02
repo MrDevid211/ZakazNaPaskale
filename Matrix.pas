@@ -67,7 +67,7 @@ for j:=1 to n+1 do
 for i:=1 to n+1 do
  begin
   for j:=1 to n+1 do
-  write(q[i,j] / 10 :3);
+  write(q[i,j] / 10 :4);
   writeln;
  end;
  
